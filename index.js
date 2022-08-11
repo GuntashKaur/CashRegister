@@ -1,7 +1,7 @@
 const button = document.querySelector("#button");
 const billAmount = document.querySelector("#bill-amount");
 const cashGiven = document.querySelector("#cash-given");
-const noOfNotes = document.querySelector(".no-of-notes");
+const noOfNotes = document.querySelectorAll(".no-of-notes");
 
 const availableNotes = [2000, 500, 100, 50, 20, 10, 5, 2, 1];
 
@@ -12,7 +12,8 @@ function calculateAmount(amountToBeReturened){
 
         const notes = Math.trunc(amountToBeReturened / availableNotes[i] );
         amountToBeReturened = amountToBeReturened % availableNotes[i];
-        noOfNotes.innerText = notes;
+        noOfNotes[i].innerText = notes;
+      
     }
 };
 
