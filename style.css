@@ -1,0 +1,17 @@
+body{
+    width: 700px;
+    /* display: block; */
+    margin: auto;
+    text-align: center;
+
+}
+
+table{
+    width:500px;
+    margin: auto;
+    margin-top: 50px;
+}
+tr{
+    margin:10px;
+    border: ;
+}
