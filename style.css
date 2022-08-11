@@ -13,5 +13,22 @@ table{
 }
 tr{
     margin:10px;
-    border: ;
+  
+}
+
+th{
+    border: 2px solid black;
+    
+}
+
+td{
+    border: 2px solid black;
+}
+
+button{
+    display: block;
+    width:100px;
+    margin: auto;
+    margin-top: 20px;
+
 }
