@@ -8,7 +8,7 @@ const availableNotes = [2000, 500, 100, 50, 20, 10, 5, 2, 1];
 
 function calculateAmount(amountToBeReturened){
 
-    for(var i= 0; i < availableNotes.lenght ; i++){
+    for(var i= 0; i < availableNotes.length ; i++){
 
         const notes = Math.trunc(amountToBeReturened / availableNotes[i] );
         amountToBeReturened = amountToBeReturened % availableNotes[i];
