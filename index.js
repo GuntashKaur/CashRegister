@@ -19,13 +19,6 @@ function calculateAmount(amountToBeReturened){
     }
 };
 
-// console.log("message",message);
-
-// function showMessage(msg){
-//     message.innerText = msg;
-
-// };
-
 
 button.addEventListener("click",  function clickHandler(){
 
@@ -34,7 +27,7 @@ button.addEventListener("click",  function clickHandler(){
         if(cashGiven.value >= billAmount.value){
             // console.log("if")
             // console.log("cash given is greater");
-            const amountToBeReturened = cashGiven.value - billAmount.value;
+            const amountToBeReturened =  billAmount.value - cashGiven.value ;
             calculateAmount(amountToBeReturened);
             
         }
